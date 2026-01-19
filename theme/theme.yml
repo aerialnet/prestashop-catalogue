@@ -1,0 +1,36 @@
+name: minimalist_catalogue
+display_name: Minimalist Catalogue
+version: 1.0.0
+author:
+  name: "Aerial Net"
+  email: "info@aerialnet.com"
+  url: "https://github.com/aerialnet/prestashop-catalogue"
+
+meta:
+  compatibility:
+    from: 1.7.0.0
+  available_layouts:
+    layout-both-columns: Both columns
+    layout-left-column: Left column
+    layout-right-column: Right column
+    layout-no-columns: No columns
+
+global_settings:
+  configuration:
+    PS_QUICK_VIEW: false
+    PS_IMAGE_QUALITY: jpg
+  hooks:
+    modules_to_hook:
+      displayNav:
+        - ps_customersignin
+        - ps_shoppingcart
+        - ps_searchbar
+      displayTop:
+        - ps_mainmenu
+      displayFooter:
+        - ps_contactinfo
+        - ps_socialfollow
+
+theme_settings:
+  default_layout: layout-no-columns
+  cart_layout: layout-no-columns

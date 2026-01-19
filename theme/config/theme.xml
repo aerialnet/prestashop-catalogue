@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <name>minimalist_catalogue</name>
+  <display_name>Minimalist Catalogue</display_name>
+  <version>1.0.0</version>
+  <author>
+    <name>Aerial Net</name>
+    <email>info@aerialnet.com</email>
+    <url>https://github.com/aerialnet/prestashop-catalogue</url>
+  </author>
+  
+  <description>
+    <![CDATA[
+      A minimalist PrestaShop theme designed for product catalogues. 
+      Features dual-row category navigation, responsive grid layout, 
+      and clean modern design. Perfect for showcasing products without prices.
+    ]]>
+  </description>
+  
+  <compatibility>
+    <from>1.7.0.0</from>
+  </compatibility>
+  
+  <theme_settings>
+    <default_layout>layout-full-width</default_layout>
+    <responsive>true</responsive>
+  </theme_settings>
+  
+  <docs>
+    <doc type="readme">README.md</doc>
+    <doc type="customization">THEME_CUSTOMIZATION.md</doc>
+  </docs>
+</theme>
